@@ -8,7 +8,7 @@ function toRoman(num){
             str+=roman[i]
        }
    }
-console.log(str)
+return str
 }
 
 // console.log(toRoman(14))
