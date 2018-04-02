@@ -1,0 +1,19 @@
+- buat sebuah function dengan nama toRoman dengan parameter yang akan menerima angka/"num".
+
+- buat sebuah variabel "kamus" berupa object dengan format "latin" yang berisi angka dan "roman" yang berisi string romawi dari angka latin.
+
+  * kamus diatas berisikan terjemah dari angka 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ke bentuk string romawi
+
+- buat sebuah variabel string result yang akan diisi dengan hasil konversi angka ke romawi.
+
+- buat sebuah perulangan dengan kondisi jika num tidak sama dengan 0, maka lakukan terus proses perulangan.
+
+  * buat nested loop didalamnya, dan lakukan perulangan sebanyak variabel "i" sama dengan 0, sampai dengan jumlah kamus.
+
+    # buat kondisi jika "num" lebih besar atau sama dengan latin kamus index ke "i", maka :
+
+      * kurangi "num" dengan latin kamus index ke "i"
+      * tambahkan result dengan string romawi kamus index ke "i"
+      * hentikan proses perulangan nested
+
+- kembalikan nilai result.
