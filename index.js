@@ -7,12 +7,12 @@ function toRoman(num) {
   let x = ['', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'];
   let i = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
 
-  let thousands = m[Math.floor(num/1000)];
-  let hundreds = c[Math.floor((num % 1000) / 100)];
-  let tens = x[Math.floor((num % 100) / 10)];
-  let ones = i[num % 10];
+  let ribu = m[Math.floor(num / 1000)];
+  let ratus = c[Math.floor((num % 1000) / 100)];
+  let puluh = x[Math.floor((num % 100) / 10)];
+  let satu = i[num % 10];
 
-  let result = thousands + hundreds + tens + ones;
+  let result = ribu + ratus + puluh + satu;
 
   return result;
 }
